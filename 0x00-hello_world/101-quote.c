@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<unistd.h>
 /**
  * main - prints 1 without functions
  * Return: Always 1
