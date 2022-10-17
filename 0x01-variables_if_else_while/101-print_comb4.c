@@ -1,14 +1,13 @@
 #include<stdio.h>
-
 /**
- * main - print combination of 3 numbers
+ * main - Prints all possible combinations of three different digits,
+ *        in ascending order, separated by a comma followed by a space.
+ *
  * Return: Always 0
  */
 int main(void)
 {
-	int i;
-	int j;
-	int k;
+	int i, j, k;
 
 	for (i = 0; i < 8; i++)
 	{
@@ -16,15 +15,15 @@ int main(void)
 		{
 			for (k = j + 1; k < 10; k++)
 			{
-                                putchar((i % 10) + '0');
+				putchar((i % 10) + '0');
 				putchar((j % 10) + '0');
 				putchar((k % 10) + '0');
 
-				if (i == 7 && j == 8 && k == 9)
+				if (i == 8 && j == 9 && k == 10)
 					continue;
 
-	putchar(',');
-	putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
