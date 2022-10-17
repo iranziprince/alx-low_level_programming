@@ -4,7 +4,7 @@
  * main - print combination of 3 numbers
  * Return: Always 0
  */
-int main (void)
+int main(void)
 {
 	int i;
 	int j;
@@ -21,7 +21,7 @@ int main (void)
 				putchar((j % 10) + '0');
 				putchar((k % 10) + '0');
 
-				if (i == 7 && j == 8 && k== 9)
+				if (i == 7 && j == 8 && k == 9)
 					continue;
 			}
 		}
