@@ -23,11 +23,12 @@ int main(void)
 
 				if (i == 7 && j == 8 && k == 9)
 					continue;
-			}
-		}
+			
 	
 	putchar(',');
 	putchar(' ');
+			}
+		}
 	}
 	return (0);
 }
