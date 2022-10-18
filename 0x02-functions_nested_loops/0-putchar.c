@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
+ * main - print _putchar
+ * is written by prince
  * Return: Always 0
  */
 int main(void)
@@ -16,6 +16,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
 	return (0);
 }
