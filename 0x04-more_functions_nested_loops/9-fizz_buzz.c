@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.o>
 
 /**
  * main - print FizzBuzz
@@ -6,26 +6,27 @@
  */
 int main(void)
 {
-	int i;
+	int n;
 
-	for (i = 1; i <= 100; i++)
+	printf("1");
+	for (n = 2; n <= 100; n++)
 	{
-		if (((i % 3) || (i % 5)) == 0)
+		if (n % 3 == 0 && n % 5 == 0)
 		{
-			printf("%d FizzBuzz\n", i);
+			printf("%d FizzBuz\n");
 		}
-		else if ((i % 3) == 0)
+		else if (n % 3 == 0)
 		{
-			printf("%d Fizz\n", i);
+			printf("%d Fizz\n");
 		}
-		else if ((i % 5) == 0)
+		else if (n % 5 == 0)
 		{
-			printf("%d Buzz\n", i);
+			printf("%d Buzz\n");
 		}
 		else
 		{
-			printf("%d\n", i);
+			printf("%d\n", n);
 		}
-		return (0);
 	}
+	return (0);
 }
