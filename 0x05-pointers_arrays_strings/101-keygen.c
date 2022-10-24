@@ -12,7 +12,7 @@
 int main(void)
 {
 	char password[84];
-	int index = 0, sum = 0, diff_half1, diff_half2;
+	int index = 0, sum = 0, diff1, diff2;
 
 	srand(time(0));
 
@@ -26,8 +26,8 @@ int main(void)
 
 	if (sum != 2772)
 	{
-		diff_half1 = (sum - 2772) / 2;
-		diff_half2 = (sum - 2772) / 2;
+		diff1 = (sum - 2772) / 2;
+		diff2 = (sum - 2772) / 2;
 		if ((sum - 2772) % 2 != 0)
 			diff_half1++;
 
