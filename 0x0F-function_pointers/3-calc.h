@@ -1,9 +1,6 @@
 #ifndef CALC_H
 #define CALC_H
 
-#include <stdlib.h>
-#include <stdion.h>
-
 /**
  * struct op - A structure of Operations
  * @op: The operator
