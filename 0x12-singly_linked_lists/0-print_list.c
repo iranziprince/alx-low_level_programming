@@ -6,12 +6,10 @@
  * @h: The list_t list
  *
  * Return: The number of nodes h
- */c
+ */
 size_t print_list(const list_t *h)
 {
 	size_t nodes = 0;
-	unsigned int len;
-	char str, next;
 
 	while (h)
 	{
