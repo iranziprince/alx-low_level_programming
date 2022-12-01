@@ -4,9 +4,9 @@
 /**
  * add_node_end - Adds a new node
  * @head: A pointer the head of the list_t list
- * @str: The string to be added to the list_t list
+ *  @str: The string to be added to the list_t list
  *
- * Return: If the function fails - NULL
+ *  Return: If the function fails - NULL
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
@@ -37,6 +37,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	else
 	{
+		last = *head;
 		while (last->next != NULL)
 			last = last->next;
 		last->next = new;
