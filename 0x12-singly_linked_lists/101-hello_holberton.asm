@@ -1,3 +1,8 @@
+;File: 101-hello_holberton.asm
+;Auth: Prince Iranzi
+;Desc: 64-bit assembly program that prints
+;        Hello, ALX followed by a new line.
+
 extern printf
 
 section .text
