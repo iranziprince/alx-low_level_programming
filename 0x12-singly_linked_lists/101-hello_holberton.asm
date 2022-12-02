@@ -1,7 +1,7 @@
  ; File: 101-hello_holberton.asm
 ; Auth: Prince Iranzi
 ; Desc: 64-bit assembly program that prints
-;       Hello, Alx followed by a new line.
+;       Hello, Holberton followed by a new line.
 
 extern printf
 
@@ -22,5 +22,5 @@ main:
    ret
 
 section .data
-   msg: db "Hello, Alx", 0
+   msg: db "Hello, Holberton", 0
    fmt: db "%s", 10, 0
