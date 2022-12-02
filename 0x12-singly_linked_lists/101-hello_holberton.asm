@@ -1,26 +1,26 @@
-;File: 101-hello_holberton.asm
-;Auth: Prince Iranzi
-;Desc: 64-bit assembly program that prints
-;        Hello, ALX followed by a new line.
+ ; File: 101-hello_holberton.asm
+; Auth: Prince Iranzi
+; Desc: 64-bit assembly program that prints
+;       Hello, Alx followed by a new line.
 
 extern printf
 
 section .text
-global main
+   global main
 
 main:
-push rbp
+   push rbp
 
-mov rdi,fmt
-mov rsi,msg
-mov rax,0
-call printf
+   mov rdi,fmt
+   mov rsi,msg
+   mov rax,0
+   call printf
 
-pop rbp
+   pop rbp
 
-mov rax,0
-ret
+   mov rax,0
+   ret
 
 section .data
-msg: db "Hello, Alx", 0
-fmt: db "%s", 10, 0
+   msg: db "Hello, Holberton", 0
+   fmt: db "%s", 10, 0
